@@ -23,7 +23,7 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     imagem.setAttribute("src", "./assets/Avatar-light.png")
   } else {
-    imagem.setAttribute("src", "./assets/Avatar-dark.png")
+    imagem.setAttribute("src", "assets/Avatar-dark.png")
   }
 
   const nomeAlt = document.querySelector("#profile img")
